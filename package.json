@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-js",
+  "version": "1.0.0",
+  "description": "Roll your own Bitcoin wallets — BIP39 mnemonics, HD derivation into all four address families, and vanity address grinding",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "create": "node index.js create",
+    "vanity": "node index.js vanity",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "bip32": "^5.0.0-rc.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.7",
+    "ecpair": "^3.0.0",
+    "tiny-secp256k1": "^2.2.4"
+  }
+}

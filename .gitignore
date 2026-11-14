@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: logs
+logs/
+*.log
+
+# Optional: test output
+jest-test-results.json
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+wallets/
